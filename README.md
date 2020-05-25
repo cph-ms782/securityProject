@@ -7,6 +7,15 @@ Martin Bøgh Sander-Thomsen
 Johan Christian Ryge  
 
 ### Before deployment:
+
+Krævet node.js, mysql  
+
+npm install -g sequelize-cli  
+npm install --save sequelize mysql2 nodemailer express pug dotenv helmet oauth2-server  
+npm install cors  
+
+Se utils/setupDB.sh for sequelize kommandoer for at sætte mysql op  
+
 ##### .env
 In root make **.env** file with secret values:
 
